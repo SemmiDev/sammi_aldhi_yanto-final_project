@@ -719,6 +719,14 @@ video {
   letter-spacing: -0.025em;
 }
 
+.tracking-tighter {
+  letter-spacing: -0.05em;
+}
+
+.tracking-wider {
+  letter-spacing: 0.05em;
+}
+
 .text-teal-200 {
   --tw-text-opacity: 1;
   color: rgb(153 246 228 / var(--tw-text-opacity));
