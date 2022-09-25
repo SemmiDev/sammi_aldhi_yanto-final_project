@@ -81,7 +81,8 @@ span.my-bio {
   margin-bottom: 20px;
 }
 
-section#edukasi {
+section#edukasi,
+section#pengalaman {
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
@@ -90,21 +91,24 @@ section#edukasi {
 
 /* Tablet */
 @media (min-width: 426px) {
-  section#edukasi {
+  section#edukasi,
+  section#pengalaman {
     flex-direction: column;
   }
 }
 
 /* Desktop */
 @media (min-width: 769px) {
-  section#edukasi {
+  section#edukasi,
+  section#pengalaman {
     flex-direction: column;
   }
 }
 
 /* large */
 @media (min-width: 1024px) {
-  section#edukasi {
+  section#edukasi,
+  section#pengalaman {
     flex-direction: row;
   }
 }
