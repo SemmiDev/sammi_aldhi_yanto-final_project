@@ -613,6 +613,10 @@ video {
   width: 50%;
 }
 
+.min-w-full {
+  min-width: 100%;
+}
+
 .max-w-full {
   max-width: 100%;
 }
