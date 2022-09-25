@@ -21,7 +21,7 @@ body {
 
 .my-container {
   max-width: 100%;
-  margin: 50px 30px 50px 50px;
+  margin: 50px 100px 30px 30px;
   background-color: #07191d;
   padding-left: 2rem /* 32px */;
   padding-right: 2rem /* 32px */;
@@ -30,7 +30,7 @@ body {
   border-radius: 10px;
   -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
 }
 
 /* Tablet */
@@ -71,4 +71,10 @@ header section.personal-info div.my-roles {
 
 p.my-desc {
   color: #e1f7f1;
+}
+
+span.my-bio {
+  font-family: 'Rochester', cursive;
+  font-style: italic;
+  margin-bottom: 20px;
 }
