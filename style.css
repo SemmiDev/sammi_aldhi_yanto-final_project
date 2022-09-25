@@ -21,7 +21,8 @@ body {
 
 .my-container {
   max-width: 100%;
-  margin: 20px 50px;
+  margin: 20px 20px;
+  margin-top: 50px;
   background-color: #07191d;
   padding: 2rem /* 32px */;
   border-radius: 25px;
