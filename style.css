@@ -68,3 +68,7 @@ header section.personal-info div.my-roles {
   gap: 0.5rem;
   margin-top: 0.5rem;
 }
+
+p.my-desc {
+  color: #e1f7f1;
+}
