@@ -49,7 +49,7 @@ body {
   }
 }
 
-header section.personal-info {
+header section#personal-info {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -57,11 +57,11 @@ header section.personal-info {
   margin-bottom: 1rem;
 }
 
-header section.personal-info h1.my-name {
+header section#personal-info h1.my-name {
   font-family: 'Sofia', cursive;
 }
 
-header section.personal-info div.my-roles {
+header section#personal-info div.my-roles {
   font-family: 'Open Sans', sans-serif;
   display: inline-flex;
   flex-direction: row;
@@ -79,4 +79,32 @@ span.my-bio {
   font-family: 'Rochester', cursive;
   font-style: italic;
   margin-bottom: 20px;
+}
+
+section#edukasi {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+/* Tablet */
+@media (min-width: 426px) {
+  section#edukasi {
+    flex-direction: column;
+  }
+}
+
+/* Desktop */
+@media (min-width: 769px) {
+  section#edukasi {
+    flex-direction: column;
+  }
+}
+
+/* large */
+@media (min-width: 1024px) {
+  section#edukasi {
+    flex-direction: row;
+  }
 }
