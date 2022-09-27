@@ -1,7 +1,7 @@
 The final project of the front end development module at the Ruangguru Camp
 
 # Tech Stack
-- HTML & CSS
+- HTML, CSS, & JS
 - Tailwind CSS
 
 # Deployment Platforms
