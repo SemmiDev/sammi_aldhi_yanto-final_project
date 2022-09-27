@@ -450,42 +450,7 @@
                   </p>
                 </div>
               </div>
-              <div
-                class="flex flex-col items-center justify-center p-4 shadow-lg rounded-3xl bg-slate-800"
-              >
-                <div
-                  class="flex items-center justify-center w-24 h-24 rounded-full bg-slate-800"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="currentColor"
-                    class="w-12 h-12 text-pink-300"
-                  >
-                    <path
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      d="M6.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM12.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM18.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
-                    />
-                  </svg>
-                </div>
-                <div class="mt-4 text-center">
-                  <h2 class="text-lg font-medium leading-6 text-white">
-                    <a
-                      href="https://github.com/SemmiDev/flutter-crud-cloud-firestore"
-                      target="_blank"
-                      s="hover:text-pink-400 hover:transition hover:duration-300"
-                    >
-                      Flutter CRUD
-                    </a>
-                  </h2>
-                  <p class="mt-2 text-sm leading-5 text-purple-400">
-                    Simple app crud using flutter.
-                  </p>
-                </div>
-              </div>
+
               <div
                 class="flex flex-col items-center justify-center p-4 shadow-lg rounded-3xl bg-slate-800"
               >
@@ -690,6 +655,20 @@
                     />
                   </svg>
                 </div>
+                <div class="mt-4 text-center">
+                  <h2 class="text-lg font-medium leading-6 text-white">
+                    <a
+                      href="https://github.com/SemmiDev/Nugaz"
+                      target="_blank"
+                      s="hover:text-pink-400 hover:transition hover:duration-300"
+                    >
+                      Portfolio Lainnya
+                    </a>
+                  </h2>
+                  <p class="mt-2 text-sm leading-5 text-purple-400">
+                    Portfolio Lainnya tersedia di Github.
+                  </p>
+                </div>
               </div>
             </div>
           </section>
@@ -830,8 +809,17 @@
 
     <script>
       const today = document.getElementById('today')
+
+      let greeting = 'Good Morning'
+      const time = new Date().getHours()
+      if (time >= 12 && time < 18) {
+        greeting = 'Good Afternoon'
+      } else if (time >= 18) {
+        greeting = 'Good Evening'
+      }
+
       const day = new Date().toLocaleString('en-us', {weekday: 'long'})
-      today.innerHTML = `Happy <b>${day}</b>`
+      today.innerHTML = `${greeting}. Happy <b>${day}</b>`
 
       const myBio = document.querySelector('.my-bio')
       const myBioext = `Keep Learning, Keep Growing, and Keep Sharing`
